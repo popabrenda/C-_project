@@ -6,13 +6,18 @@ namespace PoateAiciFunctioneaza.Domain
     {
         public string nume { get; set; }
         public string nrTelefon { get; set; }
-
-        public int Id { get; set; }
-        public Client(int id, string nume, string nrTelefon)  
+        
+        public Client(string nume, string nrTelefon)  
         {
-            this.Id = id;
             this.nume = nume;
             this.nrTelefon = nrTelefon;
+        }
+
+        public Client()
+        {
+            nume = "";
+            nrTelefon = "";
+            
         }
 
         public override string ToString()
@@ -23,6 +28,6 @@ namespace PoateAiciFunctioneaza.Domain
 
 
         }
-
+        
     }
 }

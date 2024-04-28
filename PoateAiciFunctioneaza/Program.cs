@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Net.Mime;
+using System.Web.UI.WebControls;
 using log4net.Config;
 using PoateAiciFunctioneaza.Domain;
 using PoateAiciFunctioneaza.Repository;
@@ -19,7 +21,6 @@ namespace PoateAiciFunctioneaza
                 Console.WriteLine("Configuration Settings for tasksDB {0}",GetConnectionStringByName("tasksDB"));
                 
                 
-                LogManager.GetLogger("LOG VERIF").Info("merge?");
                 IDictionary<String, string> props = new SortedList<String, String>();
                 
                 props.Add("ConnectionString", GetConnectionStringByName("tasksDB"));
@@ -29,17 +30,11 @@ namespace PoateAiciFunctioneaza
                 ExcursieDBRepository excursieDbRepository = new ExcursieDBRepository(props);
                 RezervareDBRepository rezervareDbRepository = new RezervareDBRepository(props);
         
-               Client c3 = new Client(6,"Maria", "9561651");
-               clientDbRepository.Add(c3);
-               Excursie e1 = new Excursie(6, "Belgia", "firma3", 21, 2140, 25);
-               excursieDbRepository.Add(e1);
-               Rezervare r1 = new Rezervare(6, c3, e1, 14);
-               rezervareDbRepository.Add(r1);
-               //utilizatorDbRepository.Add(new Utilizator(3,"username2", "password2"));
-               IEnumerable<Client> clienti = clientDbRepository.GetAll();
+
+            /*   IEnumerable<Client> clienti = clientDbRepository.GetAll();
                foreach (Client c in clienti)
                {
-                   Console.WriteLine(c);
+                  Console.WriteLine(c);
                }
 
                IEnumerable<Excursie> excursii = excursieDbRepository.GetAll();
@@ -48,8 +43,14 @@ namespace PoateAiciFunctioneaza
                    Console.WriteLine(e);
                    
                }
-
-               
+               IEnumerable<Rezervare> rezervari = rezervareDbRepository.GetAll();
+               foreach (Rezervare r in rezervari)
+               {
+                     Console.WriteLine(r);
+                   
+               }*/
+              
+                           
             }
 
             static string GetConnectionStringByName(string name)

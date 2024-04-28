@@ -72,13 +72,15 @@
         <Compile Include="Repository\ClientDBRepository.cs" />
         <Compile Include="Repository\DBUtils.cs" />
         <Compile Include="Repository\ExcursieDBRepository.cs" />
-        <Compile Include="Repository\IClientRepository.cs" />
-        <Compile Include="Repository\IExcursieRepository.cs" />
-        <Compile Include="Repository\IRepository.cs" />
-        <Compile Include="Repository\IRezervareRepository.cs" />
-        <Compile Include="Repository\IUtilizatorReposiroty.cs" />
+        <Compile Include="Repository\RepoInterfaces\IClientRepository.cs" />
+        <Compile Include="Repository\RepoInterfaces\IExcursieRepository.cs" />
+        <Compile Include="Repository\RepoInterfaces\IRepository.cs" />
+        <Compile Include="Repository\RepoInterfaces\IRezervareRepository.cs" />
+        <Compile Include="Repository\RepoInterfaces\IUtilizatorReposiroty.cs" />
         <Compile Include="Repository\RezervareDBRepository.cs" />
         <Compile Include="Repository\UtilizatorDBRepository.cs" />
+        <Compile Include="Service\IService.cs" />
+        <Compile Include="Service\Service.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="app.config" />

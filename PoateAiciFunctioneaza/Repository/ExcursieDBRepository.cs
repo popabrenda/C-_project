@@ -24,11 +24,7 @@ namespace PoateAiciFunctioneaza.Repository
             using (var comm = con.CreateCommand())
             {
                 comm.CommandText =
-                    "insert into Excursii (id,obiectiv,firmaTransport,oraPlecare,pret,locuriDisponibile)  values (@id,@obiectiv,@firmaTransport,@oraPlecare,@pret,@locuriDisponibile)";
-                IDbDataParameter paramId = comm.CreateParameter();
-                paramId.ParameterName = "@id";
-                paramId.Value = entity.Id;
-                comm.Parameters.Add(paramId);
+                    "insert into Excursii (obiectiv,firmaTransport,oraPlecare,pret,locuriDisponibile)  values (@obiectiv,@firmaTransport,@oraPlecare,@pret,@locuriDisponibile)";
 
                 IDbDataParameter paramObiectiv = comm.CreateParameter();
                 paramObiectiv.ParameterName = "@obiectiv";
@@ -59,7 +55,6 @@ namespace PoateAiciFunctioneaza.Repository
                 var result = comm.ExecuteNonQuery();
                 if (result == 0)
                 {
-                    log.InfoFormat("Exiting Add with value {0}", "A fost adaugat");
                     throw new RepositoryException("Nu a fost adaugat!");
                 }
             }
@@ -94,8 +89,8 @@ namespace PoateAiciFunctioneaza.Repository
                         int oraPlecare = dataR.GetInt32(3);
                         int pret = dataR.GetInt32(4);
                         int locuriDisponibile = dataR.GetInt32(5);
-                        Excursie excursie = new Excursie(idExcursie, obiectiv, firmaTransport, oraPlecare, pret,
-                            locuriDisponibile);
+                        Excursie excursie = new Excursie(obiectiv, firmaTransport, oraPlecare, pret, locuriDisponibile);
+                        excursie.Id = id;
                         log.InfoFormat("Exiting findOne with value {0}", excursie);
                         return excursie;
                     }
@@ -123,8 +118,8 @@ namespace PoateAiciFunctioneaza.Repository
                         int oraPlecare = dataR.GetInt32(3);
                         int pret = dataR.GetInt32(4);
                         int locuriDisponibile = dataR.GetInt32(5);
-                        Excursie excursie = new Excursie(id, obiectiv, firmaTransport, oraPlecare, pret,
-                            locuriDisponibile);
+                        Excursie excursie = new Excursie(obiectiv, firmaTransport, oraPlecare, pret, locuriDisponibile);
+                        excursie.Id = id;
                         excursii.Add(excursie);
                     }
                 }
@@ -142,6 +137,32 @@ namespace PoateAiciFunctioneaza.Repository
         public void SetAll(IEnumerable<Excursie> entities)
         {
             throw new System.NotImplementedException();
+        }
+
+        public void UpdateLocuriDisponibile(int idExcursie, int nrBilete)
+        {
+            log.InfoFormat("Entering UpdateLocuriDisponibile with value {0}", idExcursie);
+            IDbConnection con = DBUtils.getConnection(props);
+            using (var comm = con.CreateCommand())
+            {
+                comm.CommandText = "update Excursii set locuriDisponibile=locuriDisponibile-@nrBilete where id=@id";
+                IDbDataParameter paramId = comm.CreateParameter();
+                paramId.ParameterName = "@id";
+                paramId.Value = idExcursie;
+                comm.Parameters.Add(paramId);
+
+                IDbDataParameter paramNrBilete = comm.CreateParameter();
+                paramNrBilete.ParameterName = "@nrBilete";
+                paramNrBilete.Value = nrBilete;
+                comm.Parameters.Add(paramNrBilete);
+
+                var result = comm.ExecuteNonQuery();
+                if (result == 0)
+                {
+                    throw new RepositoryException("Nu a fost modificat nimic!");
+                }
+            }
+            log.InfoFormat("Exiting UpdateLocuriDisponibile with value {0}", "A fost modificat");
         }
     }
 }

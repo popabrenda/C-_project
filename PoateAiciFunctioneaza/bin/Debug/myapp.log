@@ -1,83 +1,146 @@
-2024-03-19 08:38:45,931 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:38:45,950 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:38:45,950 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:38:45,951 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:38:45,951 [1] INFO LOG VERIF - merge?
-2024-03-19 08:42:45,584 [1] INFO LOG VERIF - merge?
-2024-03-19 08:42:45,600 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:42:45,601 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:42:45,601 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:42:45,601 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:42:45,667 [1] INFO UtilizatorDBRepository - Entering Add with value Utilizator 2 username2 password2
-2024-03-19 08:42:45,962 [1] INFO UtilizatorDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:43:35,530 [1] INFO LOG VERIF - merge?
-2024-03-19 08:43:35,542 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:43:35,542 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:43:35,542 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:43:35,543 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:43:35,550 [1] INFO ClientDBRepository - Entering Add with value Client 4 Maria 9561651
-2024-03-19 08:43:35,662 [1] INFO ClientDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:43:35,663 [1] INFO ExcursieDBRepository - Entering Add with value Excursie 4 Belgia firma3 21 2140 25
-2024-03-19 08:43:35,670 [1] INFO ExcursieDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:43:35,671 [1] INFO RezevareDBRepository - Entering Add with value Rezervare 1 Client 4 Maria 9561651 Excursie 4 Belgia firma3 21 2140 25 14
-2024-03-19 08:44:00,756 [1] INFO LOG VERIF - merge?
-2024-03-19 08:44:00,768 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:44:00,768 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:44:00,768 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:44:00,768 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:44:00,774 [1] INFO RezevareDBRepository - Entering Add with value Rezervare 3 Client 4 Maria 9561651 Excursie 4 Belgia firma3 21 2140 25 14
-2024-03-19 08:44:00,880 [1] INFO RezevareDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:55:00,617 [1] INFO LOG VERIF - merge?
-2024-03-19 08:55:00,634 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:55:00,634 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:55:00,634 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:55:00,635 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:55:00,678 [1] INFO UtilizatorDBRepository - Entering Add with value Utilizator 3 username2 password2
-2024-03-19 08:55:00,913 [1] INFO UtilizatorDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:55:00,913 [1] INFO ClientDBRepository - Entering findAll
-2024-03-19 08:55:00,918 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
-2024-03-19 08:56:50,095 [1] INFO LOG VERIF - merge?
-2024-03-19 08:56:50,112 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:56:50,112 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:56:50,112 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:56:50,113 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:56:50,156 [1] INFO ClientDBRepository - Entering findAll
-2024-03-19 08:56:50,413 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
-2024-03-19 08:56:50,416 [1] INFO ExcursieDBRepository - Entering GetAll
-2024-03-19 08:56:50,417 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
-2024-03-19 08:56:50,418 [1] INFO RezevareDBRepository - Entering GetAll
-2024-03-19 08:56:50,418 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:56:50,419 [1] INFO ClientDBRepository - Entering findOne with value 1
-2024-03-19 08:57:14,484 [1] INFO LOG VERIF - merge?
-2024-03-19 08:57:14,495 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:57:14,495 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:57:14,495 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:57:14,496 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:57:14,502 [1] INFO ClientDBRepository - Entering findAll
-2024-03-19 08:57:14,607 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
-2024-03-19 08:57:14,610 [1] INFO ExcursieDBRepository - Entering GetAll
-2024-03-19 08:57:14,610 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
-2024-03-19 08:58:56,134 [1] INFO LOG VERIF - merge?
-2024-03-19 08:58:56,183 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:58:56,185 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:58:56,186 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:58:56,187 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:58:56,298 [1] INFO ClientDBRepository - Entering findAll
-2024-03-19 08:58:56,968 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
-2024-03-19 08:58:56,976 [1] INFO ExcursieDBRepository - Entering GetAll
-2024-03-19 08:58:56,978 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
-2024-03-19 08:59:54,017 [1] INFO LOG VERIF - merge?
-2024-03-19 08:59:54,052 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
-2024-03-19 08:59:54,052 [1] INFO ClientDBRepository - Creating ClientDBRepository 
-2024-03-19 08:59:54,053 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
-2024-03-19 08:59:54,054 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
-2024-03-19 08:59:54,134 [1] INFO ClientDBRepository - Entering Add with value Client 6 Maria 9561651
-2024-03-19 08:59:54,669 [1] INFO ClientDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:59:54,673 [1] INFO ExcursieDBRepository - Entering Add with value Excursie 6 Belgia firma3 21 2140 25
-2024-03-19 08:59:54,682 [1] INFO ExcursieDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:59:54,685 [1] INFO RezevareDBRepository - Entering Add with value Rezervare 6 Client 6 Maria 9561651 Excursie 6 Belgia firma3 21 2140 25 14
-2024-03-19 08:59:54,693 [1] INFO RezevareDBRepository - Exiting Add with value A fost adaugat
-2024-03-19 08:59:54,696 [1] INFO ClientDBRepository - Entering findAll
-2024-03-19 08:59:54,710 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
-2024-03-19 08:59:54,714 [1] INFO ExcursieDBRepository - Entering GetAll
-2024-03-19 08:59:54,715 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
+2024-04-01 20:53:25,978 [1] INFO LOG VERIF - merge?
+2024-04-01 20:53:25,988 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
+2024-04-01 20:53:25,988 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:53:25,989 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:53:25,989 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
+2024-04-01 20:53:25,996 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 20:53:26,102 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 20:53:26,104 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 20:53:26,104 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 20:53:26,106 [1] INFO RezevareDBRepository - Entering Add with value Rezervare 0 Client 2 Ioana 11111 Excursie 2 Monaco firma5 22 240 31 2
+2024-04-01 20:53:26,113 [1] INFO RezevareDBRepository - Exiting Add with value A fost adaugat
+2024-04-01 20:53:26,114 [1] INFO ClientDBRepository - Entering findAll
+2024-04-01 20:53:26,114 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
+2024-04-01 20:53:26,115 [1] INFO ExcursieDBRepository - Entering GetAll
+2024-04-01 20:53:26,116 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
+2024-04-01 20:53:26,118 [1] INFO RezevareDBRepository - Entering GetAll
+2024-04-01 20:53:26,118 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:53:26,118 [1] INFO ClientDBRepository - Entering Find with value 0
+2024-04-01 20:53:26,118 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:53:26,118 [1] INFO ExcursieDBRepository - Entering findOne with value 0
+2024-04-01 20:53:26,119 [1] INFO ExcursieDBRepository - Exiting findOne with value {0}
+2024-04-01 20:53:26,119 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:53:26,119 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 20:53:26,119 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 20:53:26,119 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:53:26,119 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 20:53:26,119 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 20:53:26,119 [1] INFO RezevareDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Rezervare]
+2024-04-01 20:53:44,769 [1] INFO LOG VERIF - merge?
+2024-04-01 20:53:44,780 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
+2024-04-01 20:53:44,780 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:53:44,781 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:53:44,781 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
+2024-04-01 20:53:44,787 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 20:53:44,883 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 20:53:44,886 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 20:53:44,886 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 20:53:44,887 [1] INFO RezevareDBRepository - Entering Add with value Rezervare 0 Client 2 Ioana 11111 Excursie 2 Monaco firma5 22 240 31 2
+2024-04-01 20:53:44,894 [1] INFO RezevareDBRepository - Exiting Add with value A fost adaugat
+2024-04-01 20:53:44,896 [1] INFO ClientDBRepository - Entering findAll
+2024-04-01 20:53:44,896 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
+2024-04-01 20:53:44,897 [1] INFO ExcursieDBRepository - Entering GetAll
+2024-04-01 20:53:44,897 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
+2024-04-01 20:53:44,898 [1] INFO RezevareDBRepository - Entering GetAll
+2024-04-01 20:53:44,899 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:53:44,899 [1] INFO ClientDBRepository - Entering Find with value 0
+2024-04-01 20:53:44,899 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:53:44,899 [1] INFO ExcursieDBRepository - Entering findOne with value 0
+2024-04-01 20:53:44,900 [1] INFO ExcursieDBRepository - Exiting findOne with value {0}
+2024-04-01 20:53:44,900 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:53:44,900 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 20:53:44,900 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 20:53:44,901 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:53:44,901 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 20:53:44,901 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 20:53:44,901 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:53:44,903 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 20:53:44,903 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 20:53:44,903 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:53:44,903 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 20:53:44,904 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 20:53:44,904 [1] INFO RezevareDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Rezervare]
+2024-04-01 20:58:23,435 [1] INFO LOG VERIF - merge?
+2024-04-01 20:58:23,444 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
+2024-04-01 20:58:23,446 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:58:23,446 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:58:23,446 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
+2024-04-01 20:58:23,450 [1] INFO UtilizatorDBRepository - Entering Add with value Utilizator 0 admin admin
+2024-04-01 20:58:23,566 [1] INFO UtilizatorDBRepository - Exiting Add with value A fost adaugat
+2024-04-01 20:58:23,567 [1] INFO ClientDBRepository - Entering findAll
+2024-04-01 20:58:23,571 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
+2024-04-01 20:58:23,572 [1] INFO ExcursieDBRepository - Entering GetAll
+2024-04-01 20:58:23,572 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
+2024-04-01 20:58:23,574 [1] INFO RezevareDBRepository - Entering GetAll
+2024-04-01 20:58:23,574 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:58:23,575 [1] INFO ClientDBRepository - Entering Find with value 0
+2024-04-01 20:58:23,575 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:58:23,577 [1] INFO ExcursieDBRepository - Entering findOne with value 0
+2024-04-01 20:58:23,577 [1] INFO ExcursieDBRepository - Exiting findOne with value {0}
+2024-04-01 20:58:23,578 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:58:23,578 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 20:58:23,578 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 20:58:23,578 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:58:23,579 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 20:58:23,579 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 20:58:23,579 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 20:58:23,579 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 20:58:23,579 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 20:58:23,579 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 20:58:23,580 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 20:58:23,580 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 20:58:23,580 [1] INFO RezevareDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Rezervare]
+2024-04-01 21:46:53,819 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
+2024-04-01 21:46:53,832 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 21:46:53,833 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 21:46:53,833 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
+2024-04-01 21:46:53,840 [1] INFO ClientDBRepository - Entering findAll
+2024-04-01 21:46:53,950 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
+2024-04-01 21:46:53,952 [1] INFO ExcursieDBRepository - Entering GetAll
+2024-04-01 21:46:53,953 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
+2024-04-01 21:46:53,954 [1] INFO RezevareDBRepository - Entering GetAll
+2024-04-01 21:46:53,954 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 21:46:53,955 [1] INFO ClientDBRepository - Entering Find with value 0
+2024-04-01 21:46:53,961 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 21:46:53,961 [1] INFO ExcursieDBRepository - Entering findOne with value 0
+2024-04-01 21:46:53,961 [1] INFO ExcursieDBRepository - Exiting findOne with value {0}
+2024-04-01 21:46:53,962 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 21:46:53,962 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 21:46:53,962 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 21:46:53,963 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 21:46:53,963 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 21:46:53,963 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 21:46:53,963 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 21:46:53,963 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 21:46:53,963 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 21:46:53,964 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 21:46:53,964 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 21:46:53,964 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 21:46:53,964 [1] INFO RezevareDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Rezervare]
+2024-04-01 22:24:43,807 [1] INFO UtilizatorDBRepository - Creating UtilizatorDBRepository 
+2024-04-01 22:24:43,850 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 22:24:43,850 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 22:24:43,852 [1] INFO RezevareDBRepository - Creating RezevareDBRepository 
+2024-04-01 22:24:43,876 [1] INFO ClientDBRepository - Entering findAll
+2024-04-01 22:24:44,278 [1] INFO ClientDBRepository - Exiting findAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Client]
+2024-04-01 22:24:44,284 [1] INFO ExcursieDBRepository - Entering GetAll
+2024-04-01 22:24:44,287 [1] INFO ExcursieDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Excursie]
+2024-04-01 22:24:44,292 [1] INFO RezevareDBRepository - Entering GetAll
+2024-04-01 22:24:44,294 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 22:24:44,296 [1] INFO ClientDBRepository - Entering Find with value 0
+2024-04-01 22:24:44,315 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 22:24:44,317 [1] INFO ExcursieDBRepository - Entering findOne with value 0
+2024-04-01 22:24:44,318 [1] INFO ExcursieDBRepository - Exiting findOne with value {0}
+2024-04-01 22:24:44,320 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 22:24:44,321 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 22:24:44,321 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 22:24:44,322 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 22:24:44,322 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 22:24:44,323 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 22:24:44,324 [1] INFO ClientDBRepository - Creating ClientDBRepository 
+2024-04-01 22:24:44,324 [1] INFO ClientDBRepository - Entering Find with value 2
+2024-04-01 22:24:44,325 [1] INFO ClientDBRepository - Exiting Find with value Client 2 Ioana 11111
+2024-04-01 22:24:44,325 [1] INFO ExcursieDBRepository - Creating ExcursieDBRepository 
+2024-04-01 22:24:44,326 [1] INFO ExcursieDBRepository - Entering findOne with value 2
+2024-04-01 22:24:44,327 [1] INFO ExcursieDBRepository - Exiting findOne with value Excursie 2 Monaco firma5 22 240 31
+2024-04-01 22:24:44,327 [1] INFO RezevareDBRepository - Exiting GetAll with value System.Collections.Generic.List`1[PoateAiciFunctioneaza.Domain.Rezervare]

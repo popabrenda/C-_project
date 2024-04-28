@@ -26,12 +26,9 @@ namespace PoateAiciFunctioneaza.Repository
 
             using (var comm = con.CreateCommand())
             {
-                comm.CommandText = "insert into Clienti (id,nume,nrTelefon)  values (@id,@nume,@nrTelefon)";
-                IDbDataParameter paramId = comm.CreateParameter();
-                paramId.ParameterName = "@id";
-                paramId.Value = entity.Id;
-                comm.Parameters.Add(paramId);
-
+                comm.CommandText = 
+                    "insert into Clienti (nume,nrTelefon)  values (@nume,@nrTelefon)";
+               
                 IDbDataParameter paramNume = comm.CreateParameter();
                 paramNume.ParameterName = "@nume";
                 paramNume.Value = entity.nume;
@@ -45,7 +42,6 @@ namespace PoateAiciFunctioneaza.Repository
                 var result = comm.ExecuteNonQuery();
                 if (result == 0)
                 {
-                    log.InfoFormat("Exiting Add with value {0}", "A fost adaugat");
                     throw new RepositoryException("Nu a fost adaugat!");
                 }
             }
@@ -55,34 +51,18 @@ namespace PoateAiciFunctioneaza.Repository
 
         public void Remove(int id)
         {
-            log.InfoFormat("Entering Remove with value {0}", id);
-            IDbConnection con = DBUtils.getConnection(props);
-            using (var comm = con.CreateCommand())
-            {
-                comm.CommandText = "delete from Clienti where Id=@id";
-                IDbDataParameter paramId = comm.CreateParameter();
-                paramId.ParameterName = "@id";
-                paramId.Value = id;
-                comm.Parameters.Add(paramId);
-                var result = comm.ExecuteNonQuery();
-                if (result == 0)
-                {
-                    log.InfoFormat("Exiting Remove with value {0}", "A fost sters");
-                    throw new RepositoryException("Nu a fost sters!");
-                }
-            }
+            throw new NotImplementedException();
         }
 
         public Client Find(int id)
         {
-            log.InfoFormat("Entering findOne with value {0}", id);
+            log.InfoFormat("Entering Find with value {0}", id);
             IDbConnection con = DBUtils.getConnection(props);
-
             using (var comm = con.CreateCommand())
             {
-                comm.CommandText = "select Id,nume,nrTelefon from Clienti where id=@id";
+                comm.CommandText = "select id,nume,nrTelefon from Clienti where id=@id";
                 IDbDataParameter paramId = comm.CreateParameter();
-                paramId.ParameterName = "@Id";
+                paramId.ParameterName = "@id";
                 paramId.Value = id;
                 comm.Parameters.Add(paramId);
                 using (var dataR = comm.ExecuteReader())
@@ -90,19 +70,20 @@ namespace PoateAiciFunctioneaza.Repository
                     if (dataR.Read())
                     {
                         int idClient = dataR.GetInt32(0);
-                        string nume = dataR.GetString(1);
-                        string nrTelefon = dataR.GetString(2);
-                        Client client = new Client(idClient, nume, nrTelefon);
-                        log.InfoFormat("Exiting findOne with value {0}", client);
-                        return client;
+                        String nume = dataR.GetString(1);
+                        String nrTelefon = dataR.GetString(2);
+                        Client client = new Client(nume, nrTelefon);
+                        client.Id = idClient;
+                        log.InfoFormat("Exiting Find with value {0}", client);
+                        client.Id = idClient;
+                        if (client != null)
+                             return client;
                     }
                 }
             }
 
-            log.InfoFormat("Exiting findOne with value {0}", "null");
             return null;
         }
-
         
 
         public IEnumerable<Client> GetAll()
@@ -121,7 +102,8 @@ namespace PoateAiciFunctioneaza.Repository
                         int idClient = dataR.GetInt32(0);
                         string nume = dataR.GetString(1);
                         string nrTelefon = dataR.GetString(2);
-                        Client client = new Client(idClient, nume, nrTelefon);
+                        Client client = new Client(nume, nrTelefon);
+                        client.Id = idClient;
                         clienti.Add(client);
                     }
                 }

@@ -1,8 +1,8 @@
 namespace PoateAiciFunctioneaza.Domain
 {
-    public interface Entity<T>
+    public class Entity<ID>
     {
-        T Id { get; set; }
+        public ID Id { get; set; }
         
     }
 }

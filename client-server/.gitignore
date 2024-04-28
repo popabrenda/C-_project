@@ -1,0 +1,17 @@
+/.idea/
+/packages/
+TripClient/bin
+TripClient/obj
+TripModel/bin
+TripModel/obj
+TripPersistence/obj
+TripPersistence/bin
+TripServer/bin
+TripServer/obj
+TripService/bin
+TripService/obj
+Utils/bin
+Utils/obj
+
+
+

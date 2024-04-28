@@ -24,12 +24,8 @@ namespace PoateAiciFunctioneaza.Repository
             IDbConnection con = DBUtils.getConnection(props);
             using (var comm = con.CreateCommand())
             {
-                comm.CommandText = "insert into Rezervari (id, idClient, idExcursie, nrBilete)  values (@id, @idClient, @idExcursie,@nrBilete)";
-                IDbDataParameter paramId = comm.CreateParameter();
-                paramId.ParameterName = "@id";
-                paramId.Value = entity.Id;
-                comm.Parameters.Add(paramId);
-                
+                comm.CommandText = "insert into Rezervari (idClient, idExcursie, nrBilete)  values (@idClient, @idExcursie,@nrBilete)";
+            
                 IDbDataParameter paramIdClient = comm.CreateParameter();
                 paramIdClient.ParameterName = "@idClient"; 
                 paramIdClient.Value = entity.client.Id;
@@ -48,7 +44,6 @@ namespace PoateAiciFunctioneaza.Repository
                 var result = comm.ExecuteNonQuery();
                 if (result == 0)
                 {
-                    log.InfoFormat("Exiting Add with value {0}", "A fost adaugat");
                     throw new RepositoryException("Nu a fost adaugat!");
                 }
                 log.InfoFormat("Exiting Add with value {0}", "A fost adaugat");
@@ -86,7 +81,8 @@ namespace PoateAiciFunctioneaza.Repository
                         
                         ExcursieDBRepository excursieDBRepository = new ExcursieDBRepository(props);
                         Excursie excursie = excursieDBRepository.Find(idExcursie);
-                        Rezervare rezervare = new Rezervare(idRezervare, client,excursie, nrBilete);
+                        Rezervare rezervare = new Rezervare(client,excursie, nrBilete);
+                        rezervare.Id = idRezervare;
                         rezervari.Add(rezervare);
                     }
                 }

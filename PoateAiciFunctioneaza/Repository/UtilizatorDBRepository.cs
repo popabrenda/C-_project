@@ -28,12 +28,8 @@ namespace Problema6_mpp.Repository
 
             using (var comm = con.CreateCommand())
             {
-                comm.CommandText = "insert into Utilizatori (id,username,password)  values (@id,@username,@password)";
-                IDbDataParameter paramId = comm.CreateParameter();
-                paramId.ParameterName = "@id";
-                paramId.Value = entity.Id;
-                comm.Parameters.Add(paramId);
-
+                comm.CommandText = "insert into Utilizatori (username,password)  values (@username,@password)";
+                
                 IDbDataParameter paramUsername = comm.CreateParameter();
                 paramUsername.ParameterName = "@username";
                 paramUsername.Value = entity.username;
@@ -47,7 +43,6 @@ namespace Problema6_mpp.Repository
                 var result = comm.ExecuteNonQuery();
                 if (result == 0)
                 {
-                    log.InfoFormat("Exiting Add with value {0}", "A fost adaugat");
                     throw new RepositoryException("Nu a fost adaugat!");
                 }
             }
@@ -67,9 +62,9 @@ namespace Problema6_mpp.Repository
 
             using (var comm = con.CreateCommand())
             {
-                comm.CommandText = "select Id,username,password from Utilizatori where Id=@Id";
+                comm.CommandText = "select username,password from Utilizatori where id=@id";
                 IDbDataParameter paramId = comm.CreateParameter();
-                paramId.ParameterName = "@Id";
+                paramId.ParameterName = "@id";
                 paramId.Value = id;
                 comm.Parameters.Add(paramId);
 
@@ -77,10 +72,11 @@ namespace Problema6_mpp.Repository
                 {
                     if (dataR.Read())
                     {
-                        int idV = dataR.GetInt32(0);
+                        int idU = dataR.GetInt32(0);
                         String username = dataR.GetString(1);
                         String password = dataR.GetString(2);
-                        Utilizator utilizator = new Utilizator(idV, username, password);
+                        Utilizator utilizator = new Utilizator(username, password);
+                        utilizator.Id = idU;
                         log.InfoFormat("Exiting findOne with value {0}", utilizator);
                         return utilizator;
                     }
@@ -106,7 +102,8 @@ namespace Problema6_mpp.Repository
                         int idV = dataR.GetInt32(0);
                         String username = dataR.GetString(1);
                         String password = dataR.GetString(2);
-                        Utilizator utilizator = new Utilizator(idV, username, password);
+                        Utilizator utilizator = new Utilizator(username, password);
+                        utilizator.Id = idV;
                         utilizatori.Add(utilizator);
                     }
                 }
