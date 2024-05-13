@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripModel", "TripModel\TripModel.csproj", "{F6AE88D8-A0EC-45F0-A604-82F7F22D10F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPersistence", "TripPersistence\TripPersistence.csproj", "{6A43DE6F-55EB-48D6-8FEA-58446E22A2EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{CE961C0E-08B6-4623-9118-97D0DDFED5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService", "TripService\TripService.csproj", "{20D7CDA4-2C12-4DB0-89E5-CBB75A6D7048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripNetworking", "TripNetworking\TripNetworking.csproj", "{0673DD9B-6A40-48FF-B2EA-B19A46EBC84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripServer", "TripServer\TripServer.csproj", "{37CBBD7B-D06E-4DE6-8346-1C49B3EFE843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripClient", "TripClient\TripClient.csproj", "{85D6F835-8E13-427C-96B9-394BB3992F6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6AE88D8-A0EC-45F0-A604-82F7F22D10F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6AE88D8-A0EC-45F0-A604-82F7F22D10F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6AE88D8-A0EC-45F0-A604-82F7F22D10F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6AE88D8-A0EC-45F0-A604-82F7F22D10F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A43DE6F-55EB-48D6-8FEA-58446E22A2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A43DE6F-55EB-48D6-8FEA-58446E22A2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A43DE6F-55EB-48D6-8FEA-58446E22A2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A43DE6F-55EB-48D6-8FEA-58446E22A2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE961C0E-08B6-4623-9118-97D0DDFED5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE961C0E-08B6-4623-9118-97D0DDFED5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE961C0E-08B6-4623-9118-97D0DDFED5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE961C0E-08B6-4623-9118-97D0DDFED5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D7CDA4-2C12-4DB0-89E5-CBB75A6D7048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D7CDA4-2C12-4DB0-89E5-CBB75A6D7048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D7CDA4-2C12-4DB0-89E5-CBB75A6D7048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D7CDA4-2C12-4DB0-89E5-CBB75A6D7048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0673DD9B-6A40-48FF-B2EA-B19A46EBC84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0673DD9B-6A40-48FF-B2EA-B19A46EBC84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0673DD9B-6A40-48FF-B2EA-B19A46EBC84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0673DD9B-6A40-48FF-B2EA-B19A46EBC84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CBBD7B-D06E-4DE6-8346-1C49B3EFE843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CBBD7B-D06E-4DE6-8346-1C49B3EFE843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CBBD7B-D06E-4DE6-8346-1C49B3EFE843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CBBD7B-D06E-4DE6-8346-1C49B3EFE843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D6F835-8E13-427C-96B9-394BB3992F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D6F835-8E13-427C-96B9-394BB3992F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D6F835-8E13-427C-96B9-394BB3992F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D6F835-8E13-427C-96B9-394BB3992F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

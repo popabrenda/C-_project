@@ -1,0 +1,67 @@
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripNetworking.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripNetworking.pdb
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripModel.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripService.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\Utils.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripModel.pdb
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripService.pdb
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\Utils.pdb
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\obj\Debug\TripNetworking.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\obj\Debug\TripNetworking.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\obj\Debug\TripNetw.780C6039.Up2Date
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\obj\Debug\TripNetworking.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\obj\Debug\TripNetworking.pdb
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripNetworking.dll.config
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\EntityFramework.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\System.Data.SQLite.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripModel.dll.config
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\TripService.dll.config
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\Utils.dll.config
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\EntityFramework.xml
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andrei\Documents\Facultate\Semestrul_IV\MPP\TripApplication_NET\TripNetworking\bin\Debug\System.Data.SQLite.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripNetworking.dll.config
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripNetworking.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripNetworking.pdb
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\EntityFramework.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Data.SQLite.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripModel.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripService.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Utils.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripModel.pdb
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripModel.dll.config
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripService.pdb
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\TripService.dll.config
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Utils.pdb
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Utils.dll.config
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\EntityFramework.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Data.SQLite.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\obj\Debug\TripNetworking.csproj.AssemblyReference.cache
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\obj\Debug\TripNetworking.csproj.CoreCompileInputs.cache
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\obj\Debug\TripNetworking.csproj.CopyComplete
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\obj\Debug\TripNetworking.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\obj\Debug\TripNetworking.pdb
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\x86\sqlite3.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\x64\sqlite3.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Google.Protobuf.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Google.ProtocolBuffers.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Google.ProtocolBuffers.Serialization.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Buffers.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Memory.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Numerics.Vectors.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Google.Protobuf.pdb
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Google.Protobuf.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Google.ProtocolBuffers.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\Google.ProtocolBuffers.Serialization.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Buffers.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Memory.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Numerics.Vectors.xml
+D:\Proiecte personale\Legatura Server-Client\TripNetworking\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
